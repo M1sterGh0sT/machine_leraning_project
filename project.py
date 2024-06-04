@@ -9,7 +9,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Dense
 from tensorflow.keras.utils import to_categorical
 
-url = "https://raw.githubusercontent.com/ananthr1/Weather-Prediction/main/Weather.csv"
+
+# https://www.kaggle.com/datasets/ananthr1/weather-prediction
+url = "seattle_weather.csv"
 weather_data = pd.read_csv(url)
 
 # Data Preprocessing
